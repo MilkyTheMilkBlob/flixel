@@ -61,7 +61,7 @@ class FlxStrip extends FlxSprite
 			camera.drawTriangles(graphic, vertices, indices, uvtData, colors, _point, angle, scale, origin, blend, repeat, antialiasing, colorTransform,
 				shader);
 			#else
-			camera.drawTriangles(graphic, vertices, indices, uvtData, colors, _point, angle, scale, origin, blend, repeat, antialiasing);
+			camera.drawTrianglesAdvanced(graphic, vertices, indices, uvtData, colors, _point, angle, scale, origin, blend, repeat, antialiasing, null);
 			#end
 		}
 	}
